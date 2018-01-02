@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 import urllib
 import argparse
 from web_crawler import Spider
