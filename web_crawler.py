@@ -40,7 +40,7 @@ class Spider(threading.Thread):
         try:
             web_p = urlL.urlopen(url)
         except Exception:
-            return bin('')
+            return bytes('')
         return web_p.read()
 
     def has_file(page):
